@@ -6,5 +6,5 @@ test("renders learn react link", () => {
   const { getByTestId } = render(<App />);
 
   expect(getByTestId("heading")).toBeDefined();
-  expect(getByTestId("heading")).toHaveTextContent("App");
+  expect(getByTestId("heading")).toHaveTextContent("Testing Demo");
 });
